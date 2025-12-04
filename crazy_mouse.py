@@ -11,5 +11,4 @@ if __name__ == '__main__':
         random_x = random.randint(-30, 30)
         random_y = random.randint(-30, 30)
         duration = random.randint(2, 6)
-
         pyautogui.dragRel(random_x, random_y, duration=duration)
